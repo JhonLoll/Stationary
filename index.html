@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/main.css">
+
+</head>
+<body>
+    <div class="col">
+        <div class="container-fluid">
+            <div class="row header-row">
+                <div class="row p-2 bg-primary text-white header" style="grid-area: header;">
+                    <h1>H e a d e r</h1>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            svg:menu
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Action</button></li>
+                                <li><button class="dropdown-item" type="button">Another action</button></li>
+                                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="row main-content">
+                <div class="col-auto p-3 bg-secondary text-white side-navbar" style="grid-area: nav;">
+                    <p>N A V I G A T I O N</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Link 1</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Link 2</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Link 3</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col p-3 bg-light" style="grid-area: content;">
+                    <h2>Main Content</h2>
+                    <p>This is the main content area of your layout.</p>
+                </div>
+                
+                <div class="col-auto p-3 bg-info text-white aside" style="grid-area: aside;">
+                    <h3>Aside</h3>
+                    <p>Sidebar content goes here.</p>
+                </div>
+            </div>
+            
+            <div class="row footer-row">
+                <div class="col-12 p-3 bg-dark text-white" style="grid-area: footer;">
+                    <p>Footer &copy; 2023 Stationary</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Boostrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="static/js/main.js"></script>
+</body>
+</html>
